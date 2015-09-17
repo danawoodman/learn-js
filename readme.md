@@ -2,8 +2,14 @@
 
 A repository of various JavaScript examples with an emphasis on newer ES6/7 code.
 
-- `examples` has code examples. Run them with `node <filename>.js`.
+- `examples` has code examples
 - `browser` has a browser based sandbox environment that supports ES6/7 (via babel) and CommonJS/node imports (via WebPack)
+
+## Usage
+
+- Checkout the repo
+- Install Node v4.x (preferably via nvm)
+- Run the examples (see `readme.md` in each directory for usage)
 
 
 ## Topics
