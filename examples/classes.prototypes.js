@@ -38,6 +38,15 @@ Person.prototype.sayHello = function (message) {
   console.log(`Hello ${this.firstName}!`)
 }
 
+/**
+ * Class method
+ */
+Person.soemthing = function () {
+  console.log('something')
+}
+
+Person.something()
+//=> 'something'
 
 
 // Instance
