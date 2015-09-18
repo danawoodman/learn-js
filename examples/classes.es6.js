@@ -16,6 +16,7 @@ class Person {
     /**
      * Properties
      */
+    this.name = fullName
     this.first = nameParts[0]
     this.last = nameParts.splice(1).join(' ')
   }
@@ -44,3 +45,23 @@ console.log(john.first)
 
 john.sayHi()
 //=> "Hello John"
+
+
+class Pirate extends Person {
+  constructor(name) {
+    super(name)
+    this.hasScurvy = true
+  }
+
+  sayHello() {
+    console.log(`Ahoy ${this.name}!!!`)
+  }
+}
+
+const longJohn = new Pirate('Long John Silver')
+
+longJohn.sayHello()
+//=> "Ahoy Long John Silver!!!"
+
+console.log(longJohn.hasScurvy)
+//=> true
