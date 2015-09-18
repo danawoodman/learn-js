@@ -38,3 +38,7 @@ A repository of various JavaScript examples with an emphasis on newer ES6/7 code
 - Karma - a test running that supports Mocha and others (and multiple browsers)
 - Sinon - a stub/mock/spy library
 - Chai - an assertion library (assert, expect, should, etc)
+
+## Further reading
+
+- [ES6 classes syntax](http://www.2ality.com/2015/02/es6-classes-final.html)
